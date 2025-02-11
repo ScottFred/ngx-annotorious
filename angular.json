@@ -218,5 +218,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }

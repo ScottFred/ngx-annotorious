@@ -1,0 +1,10 @@
+services:
+  ngx-annotorious-app:
+    build:
+      context: .
+      target: production
+    image: ngx-annotorious
+    container_name: ngx-annotorious
+    ports:
+      - 4200:80
+    restart: unless-stopped
